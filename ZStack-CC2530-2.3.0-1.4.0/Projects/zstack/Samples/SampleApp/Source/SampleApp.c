@@ -190,6 +190,8 @@ void SampleApp_Init( uint8 task_id )
   MT_UartRegisterTaskID(task_id); //注册串口任务
   P0SEL &= ~0x40;                 //设置P0.6为普通IO口
   P0DIR &= ~0x40;                 //P0.6定义为输入口
+
+  HalLedBlink(HAL_LED_2, 0, 50, 500);
   
   // Device hardware initialization can be added here or in main() (Zmain.c).
   // If the hardware is application specific - add it here.

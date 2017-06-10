@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=1167630295
+Checksum=-1922900778
 [DisAssemblyWindow]
 NumStates=_ 1
 State 1=_ 1
@@ -42,5 +42,7 @@ Count=0
 Stop timers on halt=0
 Leave target running=1
 [Aliases]
-Count=0
+A0=_ "C:\03-dd\zigbee\zigbee开发板v5.3\代码及其教程\3.高级篇-zigbee协议栈应用与组网\10.人体红外热释电传感器\ZStack-CC2530-2.3.0-1.4.0\Components\osal\common\OSAL_Timers.c" ""
+A1=_ "C:\03-dd\zigbee\zigbee开发板v5.3\代码及其教程\3.高级篇-zigbee协议栈应用与组网\10.人体红外热释电传感器\ZStack-CC2530-2.3.0-1.4.0\Projects\zstack\ZMain\TI2530DB\ZMain.c" ""
+Count=2
 SuppressDialog=0
